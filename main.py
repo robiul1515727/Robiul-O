@@ -10,9 +10,9 @@ from bs4 import BeautifulSoup
 from telegram import InputFile, Bot
 
 # ================= CONFIG =================
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-TARGET_CHAT_ID = os.getenv("TARGET_CHAT_ID")
-OC_SESSION_COOKIE = os.getenv("OC_SESSION_COOKIE")  # e.g. "laravel_session=abcd123; XSRF-TOKEN=xyz"
+BOT_TOKEN = os.getenv("7252115465:AAEPz3nVY25VqOazgiGosbxnO5U_Y2XGRhw")
+TARGET_CHAT_ID = os.getenv("-1002601589640")
+OC_SESSION_COOKIE = os.getenv("orange_carrier_session=eyJpdiI6ImtoS2xOK1dlQVJyVEFzclF0MDlGcXc9PSIsInZhbHVlIjoiTmFZUnVvZUN2ajdncHZWYTNRNlNoQ3NtVnJXdHNKSjZcL1llaHpmY244bjZWQ0o5YVJ3ampIeWJqUEJyTGtkd3BPd2pKb0dQc05BZGQ2OEt1SUpUMlpodFBHSFNkNllMbUplOFVZY2tqeTBMT3ZSQWFUT0t4UnkxdDRhY09JZUUzIiwibWFjIjoiOGZiMjYzYWM5MGE3OGYwN2M2M2ViMjBlZTdhMzFhODUwYjdiNWY3OTFiZTY4ZWQxNTU5ZGU0NzJiZmIzYzY2YyJ9")  # e.g. "laravel_session=abcd123; XSRF-TOKEN=xyz"
 POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "15"))
 
 BASE_URL = "https://www.orangecarrier.com"
